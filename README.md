@@ -14,6 +14,8 @@ Bu uygulama jsoup kütüphanesi kullanılarak bir internet sitesinden bazı besi
 <img src="https://github.com/Eraycn16/Android-Glisemik-Uygulamasi/blob/main/img/5.png" width="200" style="max-width:100%;"></a>
 <a href="https://github.com/Eraycn16/Android-Glisemik-Uygulamasi/blob/main/img/6.png" target="_blank">
 <img src="https://github.com/Eraycn16/Android-Glisemik-Uygulamasi/blob/main/img/6.png" width="200" style="max-width:100%;"></a>
+<a href="https://github.com/Eraycn16/Android-Glisemik-Uygulamasi/blob/main/img/14.png" target="_blank">
+<img src="https://github.com/Eraycn16/Android-Glisemik-Uygulamasi/blob/main/img/14.png" width="200" style="max-width:100%;"></a>
 
 Uygulama ana sayfasında veritabanında kayıtlı olan veriler listeye dönüştürülerek kullanıcıya gösterilmiştir. İtemlerden herhangi birine tıklanıldığı zaman kullanıcıyı ürün üzerinde güncelleme işlemleri yapabileceği pencereye yönlendirir ve itemlere uzun basma işleminde ise kullanıcıya bu veriyi kalıcı olarak silebileceği pencere açılmaktadır.  Ana sayfa da bulunan Spinner yapısı ile birlikte veritabanında kayıtlı kategoriler arasında dolaşma işlemleri gerçekleştirilmiştir. Liste de bulunan itemler içinde arama yapma işlemi gerçekleştirebilmek için ise Search Box yapısı kullanılmıştır.
 
