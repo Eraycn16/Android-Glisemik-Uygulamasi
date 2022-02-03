@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductFragment">
+
+    <EditText
+        android:id="@+id/yeniUrunAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Ürün adını giriniz.."
+        android:paddingLeft="5dp"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/yeniGlisemik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/yeniUrunAdi"
+        android:inputType="number"
+        android:hint="Glisemik indeksini giriniz.."
+        android:paddingLeft="5dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/yeniMiktar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yeniGlisemik"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Karbonhidrat miktarını giriniz..(100g için)"
+        android:inputType="numberDecimal"
+        android:paddingLeft="5dp"></EditText>
+
+    <EditText
+        android:id="@+id/yeniKalori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/yeniMiktar"
+        android:inputType="numberDecimal"
+        android:hint="Kalori miktarını giriniz..(100g için)"
+        android:paddingLeft="5dp"
+        >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/yeniUrunSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yeniKalori"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    </Spinner>
+
+    <CheckBox
+        android:id="@+id/yeniKontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yeniUrunSpinner"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Bu ürünü eklemek istediğinize emin misiniz?"
+        android:textSize="15dp">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yeniKontrol"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/sea"
+        android:text="EKLE">
+    </Button>
+
+</RelativeLayout>

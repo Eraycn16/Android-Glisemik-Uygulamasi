@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menuGrup"
+        android:checkableBehavior="single">
+        <item android:id="@+id/itemList"
+            android:title="Ürünler Listesi"
+            android:checked="true"
+            android:icon="@drawable/list">
+        </item>
+        <item android:id="@+id/itemAddCategory"
+            android:title="Kategoriler"
+            android:icon="@drawable/ad_category">
+        </item>
+        <item android:id="@+id/itemAddProduct"
+            android:title="Yeni Ürün Ekle"
+            android:icon="@drawable/add">
+        </item>
+        <item android:id="@+id/itemExit"
+            android:title="Kapat"
+            android:icon="@drawable/exit">
+        </item>
+    </group>
+</menu>
