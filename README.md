@@ -1,5 +1,6 @@
 
 [![](https://img.shields.io/badge/1.14.3-Jsoup-blue)](https://mvnrepository.com/artifact/org.jsoup/jsoup/1.14.3)
+[![](https://img.shields.io/badge/-SQLite-green)](https://www.sqlite.com/index.html)
 
 # Android Glisemik Uygulaması
 Bu uygulama jsoup kütüphanesi kullanılarak bir internet sitesinden bazı besinlerin "Glisemik indeksi,Karbonhidrat miktarı ve Kalori" değerlerini uygulamaya çekerek lokal veritabanına kaydı gerçekleştirilmiştir. Veritabanı olarak SQLite kullanılmıştır. Veritabanına kayıt edilen verilere uygulama içinde yeni veriler eklenebilir, kayıtlı veriler silinebilir ve veriler üzerinde düzenlemeler yapılabilir.
